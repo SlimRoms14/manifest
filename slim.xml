@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="slim"
+          fetch=".."
+          revision="refs/heads/14" />
+
+  <project path="build/make" name="SlimRoms14/build_make" groups="pdk" remote="slim">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
+  <project path="manifest" name="SlimRoms14/manifest" remote="slim" />
+  <project path="packages/apps/Settings" name="SlimRoms14/packages_apps_Settings" groups="pdk-fs" remote="slim" />
+  <project path="vendor/slim" name="SlimRoms14/vendor_slim" remote="slim" />
+</manifest>
