@@ -21,6 +21,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="external/libnl" name="SlimRoms14/external_libnl" groups="pdk" remote="slim" />
   <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="frameworks/slim" name="SlimRoms14/frameworks_slim" remote="slim" />
   <project path="hardware/qcom/wlan" name="SlimRoms14/hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="slim" />
