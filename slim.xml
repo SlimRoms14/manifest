@@ -21,6 +21,7 @@
   <project path="frameworks/slim" name="SlimRoms14/frameworks_slim" remote="slim" />
   <project path="manifest" name="SlimRoms14/manifest" remote="slim" />
   <project path="packages/apps/Settings" name="SlimRoms14/packages_apps_Settings" groups="pdk-fs" remote="slim" />
+  <project path="packages/resources/devicesettings" name="SlimRoms14/packages_resources_devicesettings" remote="slim" />
   <project path="prebuilts/extract-tools" name="SlimRoms14/prebuilts_extract-tools" remote="slim" />
   <project path="script" name="SlimRoms14/script" remote="slim" />
   <project path="tools/extract-utils" name="SlimRoms14/tools_extract-utils" remote="slim" />
