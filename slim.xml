@@ -5,6 +5,10 @@
           fetch=".."
           revision="refs/heads/14" />
 
+  <remote name="aosp-kernel"
+          fetch="https://android.googlesource.com/"
+          revision="refs/tags/android-14.0.0_r0.17" />
+
   <project path="build/make" name="SlimRoms14/build_make" groups="pdk" remote="slim">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -26,6 +30,14 @@
   <project path="script" name="SlimRoms14/script" remote="slim" />
   <project path="tools/extract-utils" name="SlimRoms14/tools_extract-utils" remote="slim" />
   <project path="vendor/slim" name="SlimRoms14/vendor_slim" remote="slim" />
+
+  <!-- Inline kernel build -->
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="SlimRoms14/prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="slim" revision="main" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms14/prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="slim" revision="main" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="SlimRoms14/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="slim" revision="main" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="SlimRoms14/prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="slim" revision="main" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp-kernel" />
+  <project path="prebuilts/tools-slim" name="SlimRoms14/prebuilts_tools-slim" remote="slim" clone-depth="1" />
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="SlimRoms14/device_qcom_sepolicy" groups="qcom,qssi" remote="slim" />
