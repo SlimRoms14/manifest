@@ -13,6 +13,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="SlimRoms14/build_soong" groups="pdk,tradefed" remote="slim" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="manifest" name="SlimRoms14/manifest" remote="slim" />
   <project path="packages/apps/Settings" name="SlimRoms14/packages_apps_Settings" groups="pdk-fs" remote="slim" />
