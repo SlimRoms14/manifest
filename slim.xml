@@ -21,6 +21,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="SlimRoms14/bionic" groups="pdk" remote="slim" />
+  <project path="bootable/recovery" name="SlimRoms14/bootable_recovery" groups="pdk" remote="slim" />
+  <project path="device/generic/common" name="SlimRoms14/device_generic_common" groups="pdk" remote="slim" />
   <project path="external/android-nn-driver" name="SlimRoms14/external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
   <project path="external/armnn" name="SlimRoms14/external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
   <project path="external/libcxx" name="SlimRoms14/external_libcxx" groups="pdk" remote="slim" />
