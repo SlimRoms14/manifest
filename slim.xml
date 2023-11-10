@@ -21,15 +21,26 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="external/android-nn-driver" name="SlimRoms14/external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
+  <project path="external/armnn" name="SlimRoms14/external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
+  <project path="external/libcxx" name="SlimRoms14/external_libcxx" groups="pdk" remote="slim" />
   <project path="external/libnl" name="SlimRoms14/external_libnl" groups="pdk" remote="slim" />
   <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="frameworks/slim" name="SlimRoms14/frameworks_slim" remote="slim" />
+  <project path="hardware/google/gchips" name="SlimRoms14/hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
+  <project path="hardware/google/graphics/common" name="SlimRoms14/hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
+  <project path="hardware/google/pixel" name="SlimRoms14/hardware_google_pixel" groups="generic_fs,pixel" remote="slim" />
+  <project path="hardware/interfaces" name="SlimRoms14/hardware_interfaces" groups="pdk" remote="slim" />
   <project path="hardware/qcom/wlan" name="SlimRoms14/hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="slim" />
+  <project path="kernel/configs" name="SlimRoms14/kernel_configs" groups="vts,pdk" remote="slim" />
   <project path="manifest" name="SlimRoms14/manifest" remote="slim" />
   <project path="packages/apps/Settings" name="SlimRoms14/packages_apps_Settings" groups="pdk-fs" remote="slim" />
   <project path="packages/resources/devicesettings" name="SlimRoms14/packages_resources_devicesettings" remote="slim" />
   <project path="prebuilts/extract-tools" name="SlimRoms14/prebuilts_extract-tools" remote="slim" />
   <project path="script" name="SlimRoms14/script" remote="slim" />
+  <project path="system/core" name="SlimRoms14/system_core" groups="pdk" remote="slim" />
+  <project path="system/libhidl" name="SlimRoms14/system_libhidl" groups="pdk" remote="slim" />
+  <project path="system/libziparchive" name="SlimRoms14/system_libziparchive" groups="pdk" remote="slim" />
   <project path="tools/extract-utils" name="SlimRoms14/tools_extract-utils" remote="slim" />
   <project path="vendor/slim" name="SlimRoms14/vendor_slim" remote="slim" />
 
