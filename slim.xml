@@ -34,6 +34,7 @@
   <project path="hardware/google/graphics/common" name="SlimRoms14/hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
   <project path="hardware/google/pixel" name="SlimRoms14/hardware_google_pixel" groups="generic_fs,pixel" remote="slim" />
   <project path="hardware/interfaces" name="SlimRoms14/hardware_interfaces" groups="pdk" remote="slim" />
+  <project path="hardware/slim/compat" name="SlimRoms14/hardware_slim_compat" remote="slim" />
   <project path="hardware/qcom/wlan" name="SlimRoms14/hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="slim" />
   <project path="kernel/configs" name="SlimRoms14/kernel_configs" groups="vts,pdk" remote="slim" />
   <project path="manifest" name="SlimRoms14/manifest" remote="slim" />
