@@ -60,6 +60,7 @@
   <remove-project name="platform/developers/samples/android" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/frameworks/base" />

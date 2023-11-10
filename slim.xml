@@ -26,8 +26,18 @@
   <project path="device/generic/common" name="SlimRoms14/device_generic_common" groups="pdk" remote="slim" />
   <project path="external/android-nn-driver" name="SlimRoms14/external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
   <project path="external/armnn" name="SlimRoms14/external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
+  <project path="external/bash" name="SlimRoms14/external_bash" remote="slim" />
+  <project path="external/gptfdisk" name="SlimRoms14/external_gptfdisk" groups="pdk" remote="slim" />
+  <project path="external/htop" name="SlimRoms14/external_htop" remote="slim" />
   <project path="external/libcxx" name="SlimRoms14/external_libcxx" groups="pdk" remote="slim" />
+  <project path="external/libncurses" name="SlimRoms14/external_libncurses" remote="slim" />
   <project path="external/libnl" name="SlimRoms14/external_libnl" groups="pdk" remote="slim" />
+  <project path="external/nano" name="SlimRoms14/external_nano" remote="slim" />
+  <project path="external/ntfs-3g" name="SlimRoms14/external_ntfs-3g" remote="slim" />
+  <project path="external/openssh" name="SlimRoms14/external_openssh" remote="slim" />
+  <project path="external/rsync" name="SlimRoms14/external_rsync" remote="slim" />
+  <project path="external/unrar" name="SlimRoms14/external_unrar" remote="slim" />
+  <project path="external/vim" name="SlimRoms14/external_vim" remote="slim" />
   <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="frameworks/slim" name="SlimRoms14/frameworks_slim" remote="slim" />
   <project path="hardware/google/gchips" name="SlimRoms14/hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="slim" />
