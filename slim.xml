@@ -40,6 +40,7 @@
   <project path="external/rsync" name="SlimRoms14/external_rsync" remote="slim" />
   <project path="external/unrar" name="SlimRoms14/external_unrar" remote="slim" />
   <project path="external/vim" name="SlimRoms14/external_vim" remote="slim" />
+  <project path="external/zstd" name="SlimRoms14/external_zstd" groups="pdk" remote="slim" />
   <project path="frameworks/base" name="SlimRoms14/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="frameworks/native" name="SlimRoms14/frameworks_native" groups="pdk" remote="slim" />
   <project path="frameworks/slim" name="SlimRoms14/frameworks_slim" remote="slim" />
