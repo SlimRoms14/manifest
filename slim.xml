@@ -72,6 +72,7 @@
   <project path="system/core" name="SlimRoms14/system_core" groups="pdk" remote="slim" />
   <project path="system/libhidl" name="SlimRoms14/system_libhidl" groups="pdk" remote="slim" />
   <project path="system/libziparchive" name="SlimRoms14/system_libziparchive" groups="pdk" remote="slim" />
+  <project path="system/update_engine" name="SlimRoms14/system_update_engine" groups="pdk" remote="slim" />
   <project path="tools/extract-utils" name="SlimRoms14/tools_extract-utils" remote="slim" />
   <project path="vendor/slim" name="SlimRoms14/vendor_slim" remote="slim" />
 
