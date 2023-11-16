@@ -66,6 +66,7 @@
   <project path="packages/apps/Messaging" name="SlimRoms14/packages_apps_Messaging" remote="slim" />
   <project path="packages/apps/Settings" name="SlimRoms14/packages_apps_Settings" groups="pdk-fs" remote="slim" />
   <project path="packages/apps/ThemePicker" name="SlimRoms14/packages_apps_ThemePicker" remote="slim" />
+  <project path="packages/providers/DownloadProvider" name="SlimRoms14/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="slim" />
   <project path="packages/resources/devicesettings" name="SlimRoms14/packages_resources_devicesettings" remote="slim" />
   <project path="prebuilts/extract-tools" name="SlimRoms14/prebuilts_extract-tools" remote="slim" />
   <project path="script" name="SlimRoms14/script" remote="slim" />
